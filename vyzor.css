@@ -1,0 +1,33 @@
+body {
+    background-image: url("sports-betting.png");
+    background-size: cover;
+}
+
+h1 {
+    text-decoration: underline;
+    color: white;
+}
+
+.line tr:nth-child(even) { 
+	background-color: #6699ff; 
+	/* margin: center; */
+	border-bottom: 1px solid #000000;
+}
+
+.line tr:nth-child(odd) { 
+	background-color: #9966ff; 
+	border-bottom: 1px solid #000000;
+	/* margin: center; */
+}
+
+#btnOk{
+	background-color: #00cc00;
+    width: 80px;
+    border: 3px solid #8AC007;
+}
+
+#content{
+    color: black;
+    background: white;
+
+}
